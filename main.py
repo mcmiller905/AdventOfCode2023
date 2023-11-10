@@ -1,4 +1,4 @@
-# Main runner of all the Advent of Code 2021 code. Change the 'day' variable to
+# Main runner of all the Advent of Code 2023 code. Change the 'day' variable to
 # run the different day's code, or set to 0 to run all
 from importlib import import_module
 import time, sys, os
@@ -35,7 +35,7 @@ def runDay(dayNum):
 
 def printHelp():
     print()
-    print("Welcome to my Advent of Code 2022 program!")
+    print("Welcome to my Advent of Code 2023 program!")
     print("To control what gets executed, there are variables at the top of the main.py")
     print("or you could use the following command line args:")
     print(" - first arg is the number of the day to run (0 to run all)")
