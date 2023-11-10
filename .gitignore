@@ -1,0 +1,3 @@
+InputFiles/*.txt
+.DS_store
+DayCode/__pycache__
