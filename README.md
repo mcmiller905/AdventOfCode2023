@@ -1,5 +1,5 @@
 # AdventOfCode2023
-![](https://img.shields.io/badge/stars%20⭐-0-yellow)
+![](https://img.shields.io/badge/stars%4⭐-0-yellow)
 
 mcmiller905's repository for Advent of Code 2023 work. I'm still using Python, I've found this ito be a fun way to practice with it. I have a *main.py* file that serves as the main starting point for each day of code. Each day's code is stored in a DayCode directory, and the same is true for the input files in InputFiles.
 
