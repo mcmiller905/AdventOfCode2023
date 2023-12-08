@@ -32,27 +32,31 @@ def runPart2():
             if char.isnumeric():
                 foundNum = char
             #check words
-            if index+3 <= len(line):
-                if line[index:index+3] == "one":
-                    foundNum = "1"
-                if line[index:index+3] == "two":
-                    foundNum = "2"
-                if line[index:index+3] == "six":
-                    foundNum = "6"
-            if index+4 <= len(line):
-                if line[index:index+4] == "four":
-                    foundNum = "4"
-                if line[index:index+4] == "five":
-                    foundNum = "5"
-                if line[index:index+4] == "nine":
-                    foundNum = "9"
-            if index+5 <= len(line):
-                if line[index:index+5] == "three":
-                    foundNum = "3"
-                if line[index:index+5] == "seven":
-                    foundNum = "7"
-                if line[index:index+5] == "eight":
-                    foundNum = "8"
+            else:
+                if index+3 <= len(line):
+                    threeChar = line[index:index+3]
+                    if threeChar == "one":
+                        foundNum = "1"
+                    if threeChar == "two":
+                        foundNum = "2"
+                    if threeChar == "six":
+                        foundNum = "6"
+                if index+4 <= len(line):
+                    fourChar = line[index:index+4]
+                    if fourChar == "four":
+                        foundNum = "4"
+                    if fourChar == "five":
+                        foundNum = "5"
+                    if fourChar == "nine":
+                        foundNum = "9"
+                if index+5 <= len(line):
+                    fiveChar = line[index:index+5]
+                    if fiveChar == "three":
+                        foundNum = "3"
+                    if fiveChar == "seven":
+                        foundNum = "7"
+                    if fiveChar == "eight":
+                        foundNum = "8"
             #set digits with found number
             if firstDigit == "":
                 firstDigit = foundNum
